@@ -1,0 +1,141 @@
+ .heroDubai {
+  background-image: url("../../assets/DubaiBG.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+
+ }
+ .heroAtlantis {
+    background-image: url("../../assets/AtlantisBG.webp");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 50%;
+ }
+ .heroJumeirah {
+    background-image: url("../../assets/JumeirahBG.webp");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 50%;
+ }
+
+ .mainRooms {
+  max-width: 90%;
+  margin: 90px auto 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+ }
+
+ .leftRooms {
+  width: 100%;
+  background-color: #f8f6f3;
+  border-radius: 9px;
+  box-shadow: 0px 10px 10px 0px #8c7343;
+  height: 350px;
+   display: flex;
+    padding: 5px;
+ }
+
+ .rightRooms {
+  width: 100%;
+  background-color: #f8f6f3;
+  border-radius: 9px;
+  box-shadow: 0px 10px 10px 0px #8c7343;
+  padding: 5px;
+  height: 350px;
+  display: flex;
+ }
+
+ .leftsRooms {
+  background-image: url('../../assets/seaview.jpeg');
+  background-size: cover;
+  width: 50%;
+  border-radius: 9px;
+ }
+ .leftsRoomsA {
+     background-image: url('../../assets/twoBedroom.webp');
+     background-size: cover;
+     width: 50%;
+     border-radius: 9px;
+ }
+.leftsRooms2A {
+ background-image: url('../../assets/Penthouse.webp');
+ background-size: cover;
+ width: 50%;
+ border-radius: 9px;
+ }
+.leftsRoomsH {
+     background-image: url('../../assets/ThreeBedroom.webp');
+     background-size: cover;
+     width: 50%;
+     border-radius: 9px;
+}
+ .rightsRooms {
+  width: 50%;
+  padding: 20px;
+  font-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+ }
+
+ .leftsRooms2 {
+  width: 50%;
+  background-image: url('../../assets/deluxeTwin.webp');
+  background-size: cover;
+  border-radius: 9px;
+ }
+ .rightsRooms2 {
+    width: 50%;
+     padding: 20px;
+     font-size: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+ .bookingForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+ }
+
+ .bookingForm label {
+  font-size: 1.5rem;
+ }
+ .bookingForm > .availability {
+  width: 200px
+ }
+
+ .loginH {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+@media (max-width: 991px) {
+
+ html {
+  font-size: 55%;
+ }
+ .bookingForm {
+  flex-direction: column;
+ }
+}
+
+@media (max-width: 768px) {
+
+ html {
+  font-size: 55%;
+ }
+}
+
+@media (max-width: 450px) {
+
+ html {
+  font-size: 55%;
+ }
+}

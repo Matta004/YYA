@@ -1,0 +1,414 @@
+ .hero-info {
+  color:#fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  letter-spacing: 5px;
+  display: flex;
+  height: 58vh;
+  flex-direction: column;
+
+ }
+
+ .hero-info > span {
+  font-size: 1.5rem;
+  color: #8c7343;
+  font-weight: bold;
+  letter-spacing: 3px;
+ }
+
+
+ .heroDubai {
+      background-image: url("../../assets/DubaiBG.jpeg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: 50%;
+
+ }
+
+ .heroAlamein {
+        background-image: url("../../assets/New_Alamein.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: 50%;
+ }
+ .heroHurghada {
+          background-image: url("../../assets/hurghada-4.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50%;
+ }
+ 
+
+  .overlay {
+   content: "";
+   background: rgba(0, 0, 0, 0.7);
+   position: relative;
+   bottom: 0;
+   top: 0;
+   left: 0;
+   right: 0;
+
+  }
+
+.mainDubai {
+ display: flex;
+ margin-top: 5rem;
+ margin-bottom: 9rem;
+ gap: 5rem;
+}
+
+
+.left-d {
+ display: flex;
+ width: 50%;
+ align-items: flex-start;
+ justify-content: center;
+ font-weight: bold;
+ color: #8c7343;
+}
+
+.right-d {
+ padding: 3rem;
+ width: 50%;
+ line-height: 2.0;
+ font-size: 1.5rem;
+}
+
+#myBtn {
+ text-decoration: underline;
+ color: #8c7343;
+ cursor: pointer;
+}
+
+#more {
+ display: none;
+}
+
+.about-dubai {
+ display: flex;
+ background-color: #f8f6f3;
+ max-width: 68%;
+ padding: 35px 20px;
+ height: 600px;
+ margin: 90px auto 160px;
+ border-radius: 9px;
+ z-index: 1;
+}
+.about-alamein {
+  display: flex;
+    background-color: #f8f6f3;
+    max-width: 95%;
+    padding: 35px 20px;
+    padding-bottom: 0;
+    height: 600px;
+    margin: 90px auto 160px;
+    border-radius: 9px;
+    z-index: 1;
+}
+.about-hurghada {
+  display: flex;
+    background-color: #f8f6f3;
+    max-width: 68%;
+    padding: 35px 20px;
+    padding-bottom: 0;
+    height: 600px;
+    margin: 90px auto 160px;
+    border-radius: 9px;
+    z-index: 1;
+}
+.left-abouta {
+  width: 65%;
+}
+
+.right-abouta {
+  width: 35%;
+    display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding-left: 0;
+      padding-right: 0;
+}
+
+
+.left-aboutd {
+ width: 50%;
+ overflow: show;
+}
+
+.left-abouta {
+  width: 70%;
+  height: 602px;
+  background-image: url("../../assets/alameinHotel.webp");
+  background-size: cover;
+  background-position: no-repeat;
+  background-position: 40%;
+  border-radius: 9px;
+  box-shadow: 0px 10px 10px 0px #8c7343;
+}
+.left-abouth {
+  width: 50%;
+  height: 602px;
+  background-image: url("../../assets/hurghadaR.webp");
+  background-size: cover;
+  background-position: no-repeat;
+  background-position: 40%;
+  border-radius: 9px;
+  box-shadow: 0px 10px 10px 0px #8c7343;
+}
+
+
+.left-aboutd1 {
+width: 50%;
+  height: 602px;
+  background-image: url("../../assets/HotelU.jpeg");
+  background-size: cover;
+  background-position: no-repeat;
+  background-position: 40%;
+  border-radius: 9px;
+  box-shadow: 0px 10px 10px 0px #8c7343;
+}
+.left-aboutd2 {
+  width: 50%;
+  height: 602px;
+  background-image: url("../../assets/Atlantis.webp");
+  background-size: cover;
+  background-position: no-repeat;
+  background-position: 40%;
+  border-radius: 9px;
+  box-shadow: 0px 10px 10px 0px #8c7343;
+}
+.title {
+ font-size: 3.5rem;
+ color: #8c7343;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+  justify-content: center;
+ gap: 10px;
+ width: 100%;
+}
+.title > hr {
+  width: 150px;
+  border: 2px solid #8c7343;
+}
+.title > span {
+  font-size: 1.7rem;
+}
+.right-aboutd {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  flex-direction: column;
+}
+.right-t {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #8c7343;
+}
+.rightInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 100%;
+  
+}
+
+.availability {
+  width: 50%;
+  background: transparent;
+  padding: 10px;
+  cursor: pointer;
+  border: 2px solid #8c7343;
+  font-size: medium;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+.availability:hover {
+  background: #8c7343;
+  border-color: #000;
+  color: #fff; 
+}
+
+
+.ourHotels {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+  padding-top: 5rem;
+  background-color: rgb(250, 250, 250);
+}
+
+.ourHotels::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  background-image: url('../../assets/YLogo1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.ourHotels {
+  position: relative;
+  margin-top: 1rem;
+}
+
+@media (max-width: 991px) {
+
+ html {
+  font-size: 55%;
+ }
+ .hero {
+  background-size:fill;
+ }
+ .about-dubai {
+  flex-direction: column;
+  max-width: 95%;
+  gap: 0;
+  margin: 45px auto 85px;
+  height: 700px;
+ }
+    .about-alamein {
+      flex-direction: column;
+      max-width: 95%;
+      gap: 0;
+      margin: 45px auto 85px;
+    }
+    .about-hurghada  {
+          flex-direction: column;
+          max-width: 95%;
+          gap: 0;
+          margin: 45px auto 85px;
+    }
+ .left-aboutd>img {
+   height: 100%;
+ }
+ .left-aboutd {
+  width: 100%;
+  height: 50%;
+ }
+ .right-aboutd {
+  width: 100%;
+  height: 50%;
+  padding-bottom: 1rem;
+ }
+ .right-aboutd>span:nth-child(2) {
+   padding: 1.5rem;
+ }
+ .about-dubai .right-aboutd {
+  order: 1;
+ }
+ .availability {
+  padding: 5px;
+    border: 1px solid #8c7343;
+    font-size: small;
+    font-weight: bold;
+    width: 80%;
+ }
+ .right-aboutd2 {
+  padding-top: 3rem;
+  gap: 3rem;
+  font-size: x-small;
+ }
+ .right-aboutd2 >img {
+  width: 100%;
+  height: 100%;
+ }
+ .about-alamein {
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 95%;
+ }
+ .left-abouta {
+  width: 100%;
+  height: 200px;
+ }
+  .right-abouta {
+    width: 100%;
+    height: 50%;
+      padding: 1.5rem;
+ }
+ .right-abouta > span:nth-child(2) {
+  font-size: 13px;
+ }
+ .left-abouth {
+  width: 100%;
+  height: 50%;
+ }
+ .left-aboutd1 {
+    width: 100%;
+      height: 50%;
+ }
+ .left-aboutd2 {
+    width: 100%;
+      height: 50%;
+ }
+ .about-hurghada {
+  flex-direction: column;
+  gap: 5rem;
+ }
+ .right-abouth {
+  gap: 2rem;
+ }
+ .rightInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  font-size: large;
+ }
+ .ourHotels::before {
+  background-position: 0vw ;
+ }
+ .mainDubai {
+  flex-direction:column ;
+  align-items: center;
+  gap: 3rem;
+ }
+ .fstyle {
+  word-spacing: 5px;
+ }
+ .right-d {
+  padding: 0;
+  width: 70%;
+ }
+
+}
+
+@media (max-width: 768px) {
+
+ html {
+  font-size: 75%;
+ }
+ .rightInfo {
+  font-size: 10px;
+ }
+}
+
+@media (max-width: 450px) {
+
+ html {
+  font-size: 55%;
+ }
+ .rightInfo {
+   font-size: 10px;
+ }
+}
